@@ -1,0 +1,73 @@
+.fancy{
+  font-weight: bold;
+  color: $black;
+}
+
+.fancy2{
+  font-weight: bold;
+  color: $themeColor;
+}
+
+.fancy3{
+  display: inline-block;
+  padding: 0 12px;
+  background: #F0637E;
+  color: $white;
+  border-radius: 6px;
+}
+
+
+/*
+ * List
+ */
+
+ .needMarginTopList{
+  @include clearfix-me(micro);
+  margin: 1.5em 0 1.5em 20px!important;
+  clear:none;
+
+    > li{
+      list-style: circle !important;
+    }
+ }
+
+.fancyList--default{
+  @include clearfix-me(micro);
+  margin: 2.1em 0 1.5em 0!important;
+
+  li{
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    height: 70px;
+    border: 1px solid $black;
+    color: $black;
+    border-radius: 5px;
+    margin: 0 15px 15px 0 !important;
+    line-height: 70px;
+    padding: 0 20px !important;
+  }
+
+  [class*="fontawesome-"]:before {
+    padding-right: 13px;
+    font-size: 20px;
+  }
+}
+
+
+/* Animation Effect
+   (Fading)
+ */
+
+$animationTime: 50ms;
+
+%fading{
+  transition: background $animationTime linear,
+              color $animationTime linear;
+
+  &:hover{
+    transition: background $animationTime linear,
+                color $animationTime linear;
+}
+ }

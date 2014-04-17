@@ -1,0 +1,103 @@
+body{
+  background: white;
+}
+
+/* Top */
+.logo{
+  text-align: center;
+  padding: 14px 0;
+  display: block;
+  font-size: 14px;
+  color: #bbb;
+  text-transform: uppercase;
+
+  &:hover{
+    color: $black;
+  }
+
+  @include bp(mama-bear){
+    transition:  color 200ms linear;
+
+  }
+}
+
+
+
+.blog-wrap{
+  ul, li, h1, h2{
+    margin: 0;
+  }
+}
+
+.blog__link{
+  display: block;
+  padding: 30px 30px;
+
+  .header{
+    color: white;
+    font-size: 25px;
+  }
+
+  .date{
+    color: white;
+    display: inline-block;
+    margin-top: 5px;
+  }
+
+  @include bp(baby-bear){
+    padding: 30px 100px;
+  }
+
+  @include bp(mama-bear){
+    padding: 40px 170px;
+    transition: background 200ms linear;
+
+    .header{
+      font-size: 50px;
+    }
+
+    .date{
+      font-size: 23px;
+    }
+  }
+}
+
+
+/* Blog color */
+.blog--red{
+  background: $red;
+
+  &:hover{
+    background: darken($red, 10%);
+  }
+
+}
+
+.blog--blue{
+  background: $blue;
+
+  &:hover{
+    background: darken($blue, 7%);
+  }
+}
+
+.blog--teal{
+  background: $teal;
+
+  &:hover{
+    background: darken($teal, 7%);
+  }
+}
+
+
+.red{
+  background: $red;
+}
+
+.blue{
+  background: $blue;
+}
+
+.teal{
+  background: $teal;
+}

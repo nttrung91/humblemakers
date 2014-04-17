@@ -1,0 +1,90 @@
+/**
+* @desc         Button skins
+* @extends      .btn
+*/
+
+.btnDefault {
+  background: $spaceGrey;
+  color:white;
+}
+
+
+// Use as preview button for other pages
+.btnPreview {
+  border: 1px solid $themeColor;
+  color:$themeColor;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  &:hover{
+    background: $themeColor;
+    color: $white;
+  }
+
+  @include bp(teen-bear){
+    transition: background $transitionFadingSpeed linear,
+                color $transitionFadingSpeed linear;
+  }
+}
+
+// Use for navigation buttons
+.btnMenu{
+  @include fontSize(12px);
+  display: block;
+  height: $topHeight;
+  line-height: $topHeight;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.btnMenu--primary{
+  background: $topBgColor--selected;
+  color: $topTextColor;
+  padding: 0 $topSpacing;
+  border-bottom: 1px solid $topLineColor2;
+
+  &:hover{
+    color: $themeColor;
+    // background: #111;
+  }
+
+  @include bp(teen-bear){
+    background: $topBgColor;
+    transition: background $transitionFadingSpeed linear,
+                color $transitionFadingSpeed linear;
+  }
+}
+
+
+%btnMenu--secondary{
+  background: $white;
+  color: $black;
+  padding: 0 $topSpacing;
+  border-bottom: 1px solid #f1f1f1;
+
+  &:hover{
+    color: $themeColor;
+  }
+
+
+  @include bp(teen-bear){
+    transition: color $transitionFadingSpeed linear;
+    color: darken($topTextColor,50%);
+    padding: 0 $topSpacing*3 0 $topSpacing;
+    border-bottom: 1px solid $topLineColor2;
+    background: $topBgColor--selected;
+  }
+}
+
+/* Search Submit Button */
+
+.btnSubmit{
+  background: #777;
+  color: $white;
+  height: $searchInputHeight;
+  padding: 0 16px;
+  font-size: 14px;
+  margin-left: -4px;
+  -webkit-border-radius: 0;
+}
