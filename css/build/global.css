@@ -639,6 +639,15 @@ th {
 /* ==========================================================================
    Base Type
    ========================================================================== */
+.wf-loading body {
+  font-family: "droid-sans";
+  visibility: hidden;
+}
+
+.wf-active body {
+  visibility: visible;
+}
+
 html {
   font-size: 100%;
 }
