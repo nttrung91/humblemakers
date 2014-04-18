@@ -89,6 +89,14 @@ body{
   }
 }
 
+.blog--yellow{
+  background: $yellow;
+
+  &:hover{
+    background: darken($yellow, 7%);
+  }
+}
+
 
 .red{
   background: $red;

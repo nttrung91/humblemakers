@@ -2071,6 +2071,13 @@ body {
   background: #2cb4ae;
 }
 
+.blog--yellow {
+  background: #e5c826;
+}
+.blog--yellow:hover {
+  background: #cfb319;
+}
+
 .red {
   background: #ef3a2e;
 }
