@@ -50,7 +50,7 @@ $ie8: false;
    ========================================================================== */
 $baseFontSize: 14px;
 // When using baseFontSize variable, must use it with fontSize mixin
-$baseFontFamily: Helvetica, Arial, sans-serif;
+$baseFontFamily: "proxima-nova",Helvetica, Arial, sans-serif;
 $baseLineHeight: 1.5;
 //must be unitless
 $baseSpacing: $baseLineHeight+em;

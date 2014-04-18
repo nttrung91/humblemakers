@@ -646,7 +646,7 @@ html {
 body {
   font-size: 14px;
   font-size: 0.875rem;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: #403043;
 }
@@ -655,7 +655,7 @@ body,
 input,
 select,
 textarea {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 }
 
 /* ==========================================================================
