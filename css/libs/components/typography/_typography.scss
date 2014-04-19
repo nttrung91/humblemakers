@@ -13,15 +13,6 @@ $debugTypography: false;
    Base Type
    ========================================================================== */
 
-.wf-loading body {
-  font-family: "droid-sans", Helvetica, Arial;
-  visibility: hidden;
-}
-
-.wf-active body{
-  visibility: visible;
-}
-
 
 html {
   font-size: 100%;
@@ -39,6 +30,15 @@ input,
 select,
 textarea {
   font-family: $baseFontFamily;
+}
+
+.wf-loading body {
+  font-family: "droid-sans", Helvetica, Arial;
+  visibility: hidden;
+}
+
+.wf-active body {
+  visibility: visible;
 }
 
 /* ==========================================================================
