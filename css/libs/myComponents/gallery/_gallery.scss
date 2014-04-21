@@ -1,0 +1,36 @@
+.gallery{
+  .header{
+    padding: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
+    @include bp(baby-bear){
+      font-size: 26px;
+      padding: 15px 0;
+    }
+
+    @include bp(teen-bear){
+      font-size: 35px;
+      padding: 20px 0;
+    }
+  }
+}
+
+.picture{
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -4px !important;
+
+  img{
+    width: 100%;
+    vertical-align: top;
+  }
+}
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+}
