@@ -90,6 +90,28 @@
   }
 }
 
+.blogImg{
+  padding: 20px 20px 10px 20px;
+  background: #eee;
+  img{
+    width: 100%;
+  }
 
+  .caption{
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    color: #666;
+    // margin-top: 10px;
+
+    @include bp(teen-bear){
+      font-size: 18px;
+    }
+  }
+
+  @include bp(teen-bear){
+    padding: 20px 20px 14px 20px;
+  }
+}
 
 
