@@ -2087,6 +2087,27 @@ body {
   background: #cfb319;
 }
 
+.blog--lightGreen {
+  background: #d1ee50;
+}
+.blog--lightGreen:hover {
+  background: #c8eb2f;
+}
+
+.blog--purple {
+  background: #7a72e8;
+}
+.blog--purple:hover {
+  background: #5d53e3;
+}
+
+.blog--pink {
+  background: #ff667a;
+}
+.blog--pink:hover {
+  background: #ff425b;
+}
+
 .red {
   background: #ef3a2e;
 }

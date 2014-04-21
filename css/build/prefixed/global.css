@@ -795,6 +795,15 @@ textarea {
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 }
 
+.wf-loading body {
+  font-family: "droid-sans", Helvetica, Arial;
+  visibility: hidden;
+}
+
+.wf-active body {
+  visibility: visible;
+}
+
 /* ==========================================================================
    Headings and paragraph
    ========================================================================== */
@@ -2396,6 +2405,30 @@ body {
 
 .blog--yellow:hover {
   background: #cfb319;
+}
+
+.blog--lightGreen {
+  background: #d1ee50;
+}
+
+.blog--lightGreen:hover {
+  background: #c8eb2f;
+}
+
+.blog--purple {
+  background: #7a72e8;
+}
+
+.blog--purple:hover {
+  background: #5d53e3;
+}
+
+.blog--pink {
+  background: #ff667a;
+}
+
+.blog--pink:hover {
+  background: #ff425b;
 }
 
 .red {

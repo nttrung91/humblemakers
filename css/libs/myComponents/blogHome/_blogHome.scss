@@ -97,6 +97,31 @@ body{
   }
 }
 
+.blog--lightGreen{
+  background: $lightGreen;
+
+  &:hover{
+    background: darken($lightGreen, 7%);
+  }
+}
+
+.blog--purple{
+  background: $purple;
+
+  &:hover{
+    background: darken($purple, 7%);
+  }
+}
+
+.blog--pink{
+  background: $pink;
+
+  &:hover{
+    background: darken($pink, 7%);
+  }
+}
+
+
 
 .red{
   background: $red;
