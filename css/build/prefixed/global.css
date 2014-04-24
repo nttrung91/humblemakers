@@ -2597,6 +2597,7 @@ body {
   width: 33.33%;
   display: inline-block;
   vertical-align: top;
+  margin: 0;
   margin-right: -4px !important;
 }
 
